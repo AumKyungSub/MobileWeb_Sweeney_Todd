@@ -1,0 +1,79 @@
+@charset "UTF-8";
+#wrap {
+    overflow: hidden;
+    background: url('../images/download01.png') no-repeat center;
+    background-size: cover;
+}
+.downloadback_cover {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    white-space: nowrap;
+    overflow-x: auto;
+    align-items: center;
+    position: absolute;
+    left: 6px;
+    top: 0;
+}
+#contents .downloadback {
+    width: 260px;
+    height: 530px;
+    margin-left: 10px;
+    font-family: 'Lato',sans-serif;
+    font-size: 0.9rem;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.2;
+    background-color: rgba(91, 8, 7, 0.5);
+    position: relative;
+}
+#contents .downloadback h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+#contents .downloadback img {
+    width: 100%;
+}
+#contents .downloadback h3 {
+    margin-bottom: 24px;
+}
+#contents .downloadback h5 {
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+hr {
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    margin: 10px 0 24px;
+}
+#contents .downloadback p {
+    font-size: 0.6875rem;
+}
+#contents .downloadback p:nth-last-child(2){
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 24px;
+}
+#contents .downloadback p:nth-child(3) {
+    font-family: 'Noto Sans KR', sans-serif;    
+    margin-bottom: 40px;
+}
+#contents .downloadback p:nth-child(4) {
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 40px;
+}
+#contents .downloadback .last_p  {
+    position: absolute;
+    bottom: 0;
+}
+#contents .downloadback strong {
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 1px 1px 0 #000;
+}
+#contents .downloadback a {
+    text-decoration: underline;
+    color: #ccc;
+}

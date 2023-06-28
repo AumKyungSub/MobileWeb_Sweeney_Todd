@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+
+#wrap {
+    background: none;
+    overflow-x: hidden;
+}
+
+/* 배경 동영상 */
+video {
+    position: absolute;
+    right: -35%;
+    top: 0;
+    z-index: -1;
+    height: 100%;
+}
+
+/* Contents */
+#contents {
+    height: 94%;
+    padding: 0 16px;
+    position: relative;
+}
+#contents .videoback {
+    width: 90%;
+    font-family: 'Lato',sans-serif;
+    font-size: 0.9rem;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.2;
+    padding: 28px 24px;
+    background-color: rgba(91, 8, 7, 0.5);
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+#contents .videoback img {
+    width: 100%;
+}
+#contents .videoback h3 {
+    margin-bottom: 24px;
+}
+#contents .videoback p {
+    font-size: 0.6875rem;
+}
+#contents .videoback p:nth-child(2) {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-bottom: 44px;
+}
+#contents .videoback p:nth-child(3) {
+    font-family: 'Noto Sans KR', sans-serif;    
+    margin-bottom: 40px;
+}
+#contents .videoback p:nth-child(4) {
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 40px;
+}
+#contents .videoback strong {
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 1px 1px 0 #000;
+}
